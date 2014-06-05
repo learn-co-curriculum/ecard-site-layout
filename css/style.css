@@ -28,23 +28,96 @@ body {
 }
 
 
+#wrapper {
+	background: url(../images/background_light.jpg) no-repeat;
+	margin: 0 auto; /*centers our container on the page */
+	width: 960px;
+}
+
+	#main {
+			background:#a9a9a9;
+		}
 
 /*========== HEADER ==========*/
 
+	header {
+		padding: 20px 0;
+	}
 	
+		header h1 {
+			background: url(../images/logo-ecardly.png) no-repeat;
+			height: 83px;
+			text-indent: -99999em;	/* hides the H1 tag from the page, while semantically keeping it present in your HTML */
+			width: 194px;
+		}
 	
-/*========== LATEST CARD ==========*/
+/*========== LATEST ==========*/
 	
+		#latest_card {
+			background: #fff url(../images/background-inner.jpg) repeat-x;
+			border: 1px solid #fff;	
+			padding: 20px;
+		}
 		
-				
+			#latest_card img {
+				border:1px solid #ccc;
+			    border-radius: 10px;
+				box-shadow: 5px 7px 10px #999;
+				display:block; /* neccesary to float the image */
+				float: right;
+				margin: 0 0 10px 10px;
+			}
+			
+			#latest_card p {
+				font:2em/1.25em;
+			}
+		
 /*========== NEWS ==========*/		
 	
-		
+		#news {
+			background: #fff url(../images/background_block_slice.jpg) repeat-x;	
+			float:left;
+			padding:20px;
+			width:75%;
+		}
+	
+			article {
+				border-bottom:1px solid #e3e3e3;
+				margin:15px 0 0 0;
+			}
+			
+				article h2 { font:32px/31px; }
 	
 /*========== SIDEBAR ==========*/
 	
+		aside {
+			float: right;
+			padding:20px;
+			width: 25%;
+		}
 		
-				
+			aside h3 {
+				color: #333;
+				font-size: 18px;
+				padding: 10px 0;
+			}
+			
+			aside ul {
+				padding:0 0 20px 0;
+			}
+			
+			aside li {
+				padding: 5px 0;
+			}
+			
+			aside ul a, aside ul a:hover, aside ul a:active, aside ul a:visited {
+				color: #666;
+			}
+			
+			aside ul a:hover {
+				text-decoration: none;
+			}	
+		
 /*========== GLOBAL STYLES ==========*/
 
 h2 {
