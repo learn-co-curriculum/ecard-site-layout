@@ -1,8 +1,4 @@
----
-languages: html, css
-tags: layout, box model, background images
-resources: 0
----
+
 
 # ECard Site Layout
 
